@@ -1,0 +1,14 @@
+.showToDoList {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  column-gap: 20px;
+  row-gap: 20px;
+  font-family: "Courier New";
+
+}
+
+.headLine {
+  font-weight: bold;
+  font-size: 30px;
+  color: #e78a9b
+}

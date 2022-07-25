@@ -1,0 +1,29 @@
+.showToDo {
+    border: 1px solid black;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-family: "Courier New";
+    background-color: aliceblue;
+    margin: 10px;
+}
+
+.showToDo button {
+    width: 100px;
+    text-align: center;
+    margin: 5px;
+    justify-content: center;
+
+}
+
+.description{
+    font-weight: bold;
+    font-size: 24px;
+}
+
+.status{
+    font-size: 16px;
+    font-style: italic;
+    color: slategray;
+}
