@@ -33,7 +33,7 @@ export default function useTodo() {
             .then((response) => {
                 console.log(response.data)
             })
-            .then((response) => {
+            .then(() => {
                 getAllToDos()
             })
             .catch((error) => {
@@ -58,7 +58,7 @@ export default function useTodo() {
             .then((response) => {
                 console.log(response.data)
             })
-            .then((response) => {
+            .then(() => {
                 getAllToDos()
             })
             .catch((error) => {
@@ -79,7 +79,7 @@ export default function useTodo() {
             })
     }
 
-    const showMeDetails = (id: string) => {
+    const showMeDetails = (id: string) => {                 // wird aktuell nicht gebraucht!
         axios.get(`/api/todo/${id}`)
             .then((response) => {
                 return response.data
@@ -95,5 +95,5 @@ export default function useTodo() {
         }, []
     )
 
-    return {toDoItems, newItem, setNewItem, getAllToDos, addToDo, updateToDoStatus, deleteToDo, showMeDetails}
+    return {toDoItems, newItem, setNewItem, getAllToDos, addToDo, updateToDoStatus, deleteToDo}
 }

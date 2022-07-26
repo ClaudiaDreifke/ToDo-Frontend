@@ -1,9 +1,9 @@
 .showToDoList {
   display: grid;
-  grid-template-columns: auto auto auto;
+  grid-template-columns: 1fr 1fr 1fr;
   column-gap: 20px;
   row-gap: 20px;
-  font-family: "Courier New";
+  font-family: "Courier New", serif;
   text-align: center;
 
 }
@@ -12,4 +12,12 @@
   font-weight: bold;
   font-size: 30px;
   color: #e78a9b
+}
+
+.status-link {
+  color: #e78a9b;
+  text-align: center;
+  font-family: "Courier New", serif;
+  font-weight: bold;
+  font-size: 30px;
 }
