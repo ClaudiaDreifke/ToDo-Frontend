@@ -1,0 +1,31 @@
+
+h1{
+  font-size: 36px;
+  font-weight: bold;
+  font-family: "Courier New", serif;
+  text-align: center;
+}
+
+
+input {
+  width: 300px;
+  text-align: center;
+  margin: 50px 0 50px 50px
+ }
+
+form {
+ text-align: center;
+}
+
+nav {
+  text-align: center;
+  font-family: "Courier New", serif;
+  font-weight: bold;
+  font-size: 30px;
+  color: #e78a9b;
+  margin-bottom: 60px;
+}
+
+
+
+
