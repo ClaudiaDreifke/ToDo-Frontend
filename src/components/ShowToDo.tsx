@@ -1,5 +1,5 @@
-import {ToDoItem} from "./ToDoItem";
-import "./ShowToDo.css"
+import {ToDoItem} from "../model/ToDoItem";
+import "../styling/ShowToDo.css"
 
 type ShowToDoProps = {
     toDoItem: ToDoItem
@@ -13,7 +13,6 @@ export default function ShowToDo(props: ShowToDoProps) {
     return (
         <div className={"showToDo"}>
                      <p className={"description"}>{props.toDoItem.description}</p>
-
                 <button onClick={(event)=> props.showMeDetails(props.toDoItem.id)}>Details</button>
                 <button onClick={(event) => props.deleteToDo(props.toDoItem.id)}>Delete</button>
                 {props.toDoItem.status !== "DONE" && <button onClick={(event) => props.updateToDoStatus(props.toDoItem)}>Advance</button>}

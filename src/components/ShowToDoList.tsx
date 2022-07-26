@@ -1,6 +1,6 @@
-import {ToDoItem} from "./ToDoItem";
+import {ToDoItem} from "../model/ToDoItem";
 import ShowToDo from "./ShowToDo";
-import "./ShowToDoList.css"
+import "../styling/ShowToDoList.css"
 
 type ShowToDoListProps = {
     toDoItems: ToDoItem[],

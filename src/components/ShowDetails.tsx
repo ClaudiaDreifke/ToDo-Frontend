@@ -1,4 +1,4 @@
-import {ToDoItem} from "./ToDoItem";
+import {ToDoItem} from "../model/ToDoItem";
 
 
 type ShowDetailsProps = {
