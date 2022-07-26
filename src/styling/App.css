@@ -11,18 +11,15 @@ body {
   grid-template-rows: auto auto auto;
 }
 
-.createItem {
-  text-align: center;
-
-
-}
 input {
   width: 300px;
   text-align: center;
   margin: 50px 0px 50px 50px
-
-
  }
+
+form {
+ text-align: center;
+}
 
 
 
